@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    overflow-x: hidden;  
+    background: #5D4037; 
+    color: #FF5722;
+     
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3)!important;
+}
+
+#home {
+    /* background:url('/img/312332.jpg') no-repeat center;     
+    background-size: cover; */
+}
+
+#about {
+    background: url('/img/lights.jpg') no-repeat center;     
+    background-size: 100% 100%;
+}
+
+#service {
+    background: url('/img/The-best-top-3D-desktop-wallpapers-pics.jpg') no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+#contact {
+    background: url('/img/Screenshot_2019-10-27-18-48-03-829_com.supercell.clashofclans.png') no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+/* background-image:url('/img/312332.jpg');
+background-repeat:no-repeat;
+background-size:contain; */
+
+section {
+    height: 100vh;
+}
+
+.nav-link.active,
+.myactive:hover {
+    background: red;
+    color: red;
+}
+
